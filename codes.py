@@ -7,9 +7,8 @@ ntl = {
   '6':['P','Q','R'],
   '7':['S','T','U'],
   '8':['V','W','X'],
-  '9':['Y','Z'] # My program might not like it if the return list is 2 elements long... #
+  '9':['Y','Z']
 }
-# Conversion tables for future use #
 ltn = {
   'A':'1','B':'1','C':'1',
   'D':'2','E':'2','F':'2',
@@ -49,7 +48,6 @@ def fP(nm):
   word = []
   for i in str(nm):
     word.append(ntl[i])
-  # We now have a list of lists with letter possibilities. #
   wordPs = []
   counter = []
   for i in word:
